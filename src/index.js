@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => res.send("✅ Çok büyük uygulamalar gelecek! Hazır olun."));
+app.get("/", (req, res) => res.send("Çok yakında..."));
 app.use("/api/todos", todoRoutes);
 
 const PORT = process.env.PORT || 3000;
