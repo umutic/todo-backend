@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => res.send("Çok yakında..."));
+app.get("/", (req, res) => res.send("Test aşamasında."));
 app.use("/api/todos", todoRoutes);
 app.use("/api/auth", authRoutes);
 
